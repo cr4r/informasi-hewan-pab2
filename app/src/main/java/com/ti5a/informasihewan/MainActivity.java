@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     FloatingActionButton fab_add;
     RecyclerAdapter recyclerAdapter;
     DatabaseReference database = FirebaseDatabase.getInstance().getReference();
-    ArrayList<InformasiHewan> listMataKuliah;
+    ArrayList<InformasiHewan> listInformasiHewan;
     RecyclerView rv_view;
 
     @Override
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         rv_view.setItemAnimator(new DefaultItemAnimator());
 
         fab_add.setOnClickListener(v -> {
-            DialogForm dialogForm = new DialogForm("", "", "", "", "", "Tambah");
+            DialogForm dialogForm = new DialogForm("", "", "", "", "Tambah");
             dialogForm.show(getSupportFragmentManager(),"form");
         });
 
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 for (DataSnapshot item : snapshot.getChildren()){
                     InformasiHewan ih = item.getValue(InformasiHewan.class);
                     ih.setKey(item.getKey());
-                    listMataKuliah.add(ih);
+                    listInformasiHewan.add(ih);
                 }
 
                 recyclerAdapter = new RecyclerAdapter(listInformasiHewan, MainActivity.this);

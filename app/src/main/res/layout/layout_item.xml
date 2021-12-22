@@ -30,35 +30,27 @@
 
             <TextView
                 android:padding="5dp"
-                android:id="@+id/tv_kode_mk"
+                android:id="@+id/tv_nama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="@string/kode_mata_kuliah"/>
+                android:text="@string/nama_hewan"/>
 
             <TextView
                 android:padding="5dp"
-                android:id="@+id/tv_nama_mk"
+                android:id="@+id/tv_keluarga"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="@string/nama_mata_kuliah"/>
+                android:text="@string/keluarga_hewan"/>
 
             <TextView
                 android:padding="5dp"
-                android:id="@+id/tv_kelas"
+                android:id="@+id/tv_habitat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="@string/kelas"/>
-
-            <TextView
-                android:padding="5dp"
-                android:id="@+id/tv_dosen_pengampuh"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:text="@string/dosen_pengampuh"/>
+                android:text="@string/habitat"/>
 
             <Button
                 android:layout_marginTop="10dp"

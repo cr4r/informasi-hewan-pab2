@@ -3,19 +3,17 @@ package com.ti5a.informasihewan;
 public class InformasiHewan {
     private String key;
 
-    private String kodeMK;
-    private String namaMK;
-    private String kelas;
-    private String dosenPengampuh;
+    private String nama;
+    private String keluarga;
+    private String habitat;
 
     public InformasiHewan(){
     }
 
-    public InformasiHewan(String kodeMK, String namaMK, String kelas, String dosenPengampuh) {
-        this.kodeMK = kodeMK;
-        this.namaMK = namaMK;
-        this.kelas = kelas;
-        this.dosenPengampuh = dosenPengampuh;
+    public InformasiHewan(String nama, String keluarga, String habitat) {
+        this.nama = nama;
+        this.keluarga = keluarga;
+        this.habitat = habitat;
     }
 
     public String getKey() {
@@ -26,35 +24,29 @@ public class InformasiHewan {
         this.key = key;
     }
 
-    public String getKodeMK() {
-        return kodeMK;
+    public String getNama() {
+        return nama;
     }
 
-    public void setKodeMK(String kodeMK) {
-        this.kodeMK = kodeMK;
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 
-    public String getNamaMK() {
-        return namaMK;
+    public String getKeluarga() {
+        return keluarga;
     }
 
-    public void setNamaMK(String namaMK) {
-        this.namaMK = namaMK;
+    public void setKeluarga(String keluarga) {
+        this.keluarga = keluarga;
     }
 
-    public String getKelas() {
-        return kelas;
+    public String getHabitat() {
+        return habitat;
     }
 
-    public void setKelas(String kelas) {
-        this.kelas = kelas;
+    public void setHabitat(String habibtat) {
+        this.habitat = habibtat;
     }
 
-    public String getDosenPengampuh() {
-        return dosenPengampuh;
-    }
 
-    public void setDosenPengampuh(String dosenPengampuh) {
-        this.dosenPengampuh = dosenPengampuh;
-    }
 }

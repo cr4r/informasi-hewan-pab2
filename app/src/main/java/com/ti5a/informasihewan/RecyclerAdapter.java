@@ -43,12 +43,11 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerAdapter.MyViewHolder holder, int position) {
-        InformasiHewan matkul = mList.get(position);
+        InformasiHewan ih = mList.get(position);
 
-        holder.tv_kode_mk.setText("Kode MK : "+matkul.getKodeMK());
-        holder.tv_nama_mk.setText("Nama MK : "+matkul.getNamaMK());
-        holder.tv_kelas.setText  ("Kelas : "+matkul.getKelas());
-        holder.tv_dosen_pengampuh.setText("Dosen Pengampuh : "+matkul.getDosenPengampuh());
+        holder.tv_nama.setText("Nama Hewan : "+ih.getNama());
+        holder.tv_keluarga.setText("Keluarga Hewan : "+ih.getKeluarga());
+        holder.tv_habitat.setText  ("Habitat : "+ih.getHabitat());
         holder.hapus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,7 +55,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
                 builder.setPositiveButton("Ya", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        database.child("Data1").child(matkul.getKey()).removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
+                        database.child("Data1").child(ih.getKey()).removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(@NonNull Void aVoid) {
                                 Toast.makeText(activity, "Berhasil dihapus", Toast.LENGTH_SHORT).show();
@@ -73,7 +72,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
                     public void onClick(DialogInterface dialogInterface, int i) {
                         dialogInterface.dismiss();
                     }
-                }).setMessage("Apakah Anda Ingin Menghapus Data MK "+ matkul.getNamaMK()+" ?");
+                }).setMessage("Apakah Anda Ingin Menghapus list hewan ini "+ ih.getNama()+" ?");
                 builder.show();
             }
         });
@@ -82,11 +81,10 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
             @Override
             public boolean onLongClick(View view) {
                 FragmentManager manager = ((AppCompatActivity)activity).getSupportFragmentManager();
-                DialogForm dialogForm = new DialogForm(matkul.getKodeMK(),
-                        matkul.getNamaMK(),
-                        matkul.getKelas(),
-                        matkul.getDosenPengampuh(),
-                        matkul.getKey(),
+                DialogForm dialogForm = new DialogForm(ih.getNama(),
+                        ih.getKeluarga(),
+                        ih.getHabitat(),
+                        ih.getKey(),
                         "Ubah");
 
                 dialogForm.show(manager, "form");
@@ -101,10 +99,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        TextView tv_kode_mk;
-        TextView tv_nama_mk;
-        TextView tv_kelas;
-        TextView tv_dosen_pengampuh;
+        TextView tv_nama;
+        TextView tv_keluarga;
+        TextView tv_habitat;
 
         CardView cardView;
         Button hapus;
@@ -112,10 +109,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
         public MyViewHolder(View itemView) {
             super(itemView);
 
-            tv_kode_mk = itemView.findViewById(R.id.tv_kode_mk);
-            tv_nama_mk = itemView.findViewById(R.id.tv_nama_mk);
-            tv_kelas = itemView.findViewById(R.id.tv_kelas);
-            tv_dosen_pengampuh = itemView.findViewById(R.id.tv_dosen_pengampuh);
+            tv_nama = itemView.findViewById(R.id.tv_nama);
+            tv_keluarga = itemView.findViewById(R.id.tv_keluarga);
+            tv_habitat = itemView.findViewById(R.id.tv_habitat);
             cardView = itemView.findViewById(R.id.card_view);
             hapus = itemView.findViewById(R.id.hapus);
         }

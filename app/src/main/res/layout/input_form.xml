@@ -12,34 +12,26 @@
         android:padding="20dp">
 
         <EditText
-            android:id="@+id/et_kode_mk"
+            android:id="@+id/et_nama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/kode_mata_kuliah"
+            android:hint="@string/nama_hewan"
             android:inputType="textCapSentences"
             />
 
         <EditText
-            android:id="@+id/et_nama_mk"
+            android:id="@+id/et_keluarga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/nama_mata_kuliah"
+            android:hint="@string/keluarga_hewan"
             android:inputType="textCapSentences"
             />
 
         <EditText
-            android:id="@+id/et_kelas"
+            android:id="@+id/et_habitat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/kelas"
-            android:inputType="textCapSentences"
-            />
-
-        <EditText
-            android:id="@+id/et_dosen_pengampuh"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/dosen_pengampuh"
+            android:hint="@string/habitat"
             android:inputType="textCapSentences"
             />
 
