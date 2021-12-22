@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "794000111106",
-    "project_id": "informasi-hewan",
-    "storage_bucket": "informasi-hewan.appspot.com"
+    "project_number": "322737897482",
+    "firebase_url": "https://informasi-hewan-9460c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "informasi-hewan-9460c",
+    "storage_bucket": "informasi-hewan-9460c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:794000111106:android:ac4bc85a5f65b29324591b",
+        "mobilesdk_app_id": "1:322737897482:android:18854d8d380f191b8e5ff3",
         "android_client_info": {
           "package_name": "com.ti5a.informasihewan"
         }
       },
       "oauth_client": [
         {
-          "client_id": "794000111106-vo3em4kes26ra7e5oj4j47sjtl36fuur.apps.googleusercontent.com",
+          "client_id": "322737897482-i9ah341l338do6i5shfl54o6abrnpg9k.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCHACf7iUEaMQelsEywwVqFzpFDdaJ01M4"
+          "current_key": "AIzaSyDNNnUEin59ZealN3ZVfoFMtgPERjheVMw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "794000111106-vo3em4kes26ra7e5oj4j47sjtl36fuur.apps.googleusercontent.com",
+              "client_id": "322737897482-i9ah341l338do6i5shfl54o6abrnpg9k.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

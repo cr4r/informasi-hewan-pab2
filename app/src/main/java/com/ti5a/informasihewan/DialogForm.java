@@ -63,11 +63,11 @@ public class DialogForm  extends DialogFragment {
                 String habitat = et_habitat.getText().toString();
 
                 if (TextUtils.isEmpty(nama)) {
-                    DialogForm.this.input((EditText) et_nama, "Kode Mata Kuliah");
+                    DialogForm.this.input((EditText) et_nama, "Nama Hewan");
                 } else if (TextUtils.isEmpty(keluarga)) {
-                    DialogForm.this.input((EditText) et_keluarga, "Nama Mata Kuliah");
+                    DialogForm.this.input((EditText) et_keluarga, "Keluarga Hewan");
                 } else if (TextUtils.isEmpty(habitat)) {
-                    DialogForm.this.input((EditText) et_habitat, "habitat");
+                    DialogForm.this.input((EditText) et_habitat, "Habitat");
                 } else {
                     if (pilih.equals("Tambah")) {
                         getDialog().dismiss();

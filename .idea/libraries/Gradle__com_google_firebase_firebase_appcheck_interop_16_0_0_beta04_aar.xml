@@ -4,12 +4,17 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20b721452314ddb1c4115a46dc077429/jetified-firebase-appcheck-interop-16.0.0-beta04/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20b721452314ddb1c4115a46dc077429/jetified-firebase-appcheck-interop-16.0.0-beta04/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20b721452314ddb1c4115a46dc077429/jetified-firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml" />
+      <root url="jar://C:/Android/Gradle/gradle-7.2/bin/caches/transforms-3/20feb7ce18534451bd42a31233a98f4f/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/jars/classes.jar!/" />
+      <root url="file://C:/Android/Gradle/gradle-7.2/bin/caches/transforms-3/20feb7ce18534451bd42a31233a98f4f/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/res" />
+      <root url="file://C:/Android/Gradle/gradle-7.2/bin/caches/transforms-3/20feb7ce18534451bd42a31233a98f4f/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-appcheck-interop/16.0.0-beta04/71ba8eb84d97246232b5d058d8785aff02ebe40d/firebase-appcheck-interop-16.0.0-beta04-javadoc.jar!/" />
+      <root url="jar://C:/Android/Gradle/gradle-7.2/bin/caches/modules-2/files-2.1/com.google.firebase/firebase-appcheck-interop/16.0.0-beta04/71ba8eb84d97246232b5d058d8785aff02ebe40d/firebase-appcheck-interop-16.0.0-beta04-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-appcheck-interop/16.0.0-beta04/7f7054df5a13d487483a97b42a69f919a22375a2/firebase-appcheck-interop-16.0.0-beta04-sources.jar!/" />
+      <root url="jar://C:/Android/Gradle/gradle-7.2/bin/caches/modules-2/files-2.1/com.google.firebase/firebase-appcheck-interop/16.0.0-beta04/7f7054df5a13d487483a97b42a69f919a22375a2/firebase-appcheck-interop-16.0.0-beta04-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

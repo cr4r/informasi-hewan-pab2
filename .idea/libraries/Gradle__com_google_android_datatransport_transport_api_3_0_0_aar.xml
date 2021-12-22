@@ -4,9 +4,13 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/617387826d7ca5fea9869dbf2b2855db/jetified-transport-api-3.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/617387826d7ca5fea9869dbf2b2855db/jetified-transport-api-3.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/617387826d7ca5fea9869dbf2b2855db/jetified-transport-api-3.0.0/AndroidManifest.xml" />
+      <root url="jar://C:/Android/Gradle/gradle-7.2/bin/caches/transforms-3/311b684f20479c3b704eeb72a52bec80/transformed/jetified-transport-api-3.0.0/jars/classes.jar!/" />
+      <root url="file://C:/Android/Gradle/gradle-7.2/bin/caches/transforms-3/311b684f20479c3b704eeb72a52bec80/transformed/jetified-transport-api-3.0.0/res" />
+      <root url="file://C:/Android/Gradle/gradle-7.2/bin/caches/transforms-3/311b684f20479c3b704eeb72a52bec80/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.datatransport/transport-api/3.0.0/7f506fe3498cda976d1b350c218464a0f1974982/transport-api-3.0.0-javadoc.jar!/" />
+      <root url="jar://C:/Android/Gradle/gradle-7.2/bin/caches/modules-2/files-2.1/com.google.android.datatransport/transport-api/3.0.0/7f506fe3498cda976d1b350c218464a0f1974982/transport-api-3.0.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES />
   </library>

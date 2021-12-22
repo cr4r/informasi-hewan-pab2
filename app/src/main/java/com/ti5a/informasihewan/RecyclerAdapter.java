@@ -72,7 +72,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
                     public void onClick(DialogInterface dialogInterface, int i) {
                         dialogInterface.dismiss();
                     }
-                }).setMessage("Apakah Anda Ingin Menghapus list hewan ini "+ ih.getNama()+" ?");
+                }).setMessage("Apakah Anda Ingin Menghapus hewan bernama "+ ih.getNama()+" ?");
                 builder.show();
             }
         });
