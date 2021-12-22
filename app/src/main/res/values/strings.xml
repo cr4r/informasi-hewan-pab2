@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Data Mata Kuliah</string>
+    <string name="form_input">Form Input</string>
+    <string name="kode_mata_kuliah">Kode Mata Kuliah</string>
+    <string name="nama_mata_kuliah">Nama Mata Kuliah</string>
+    <string name="kelas">Kelas</string>
+    <string name="dosen_pengampuh">Dosen Pengampuh</string>
+    <string name="simpan">Simpan</string>
+    <string name="tambah_data">Tambah Data</string>
+    <string name="form_data_mata_kuliah">Form Data Mata Kuliah</string>
+</resources>

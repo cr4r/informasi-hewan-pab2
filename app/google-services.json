@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "740978139352",
+    "project_id": "data-mata-kuliah-66923",
+    "storage_bucket": "data-mata-kuliah-66923.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740978139352:android:8e7cce670f41a72222b7ad",
+        "android_client_info": {
+          "package_name": "com.ti5a.datamatakuliah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740978139352-oudakeeml87mbned6sssd5q1oa7r2fe8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOQGYg1TUSFXtptimoAvcYK3Vem__bV-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740978139352-oudakeeml87mbned6sssd5q1oa7r2fe8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
